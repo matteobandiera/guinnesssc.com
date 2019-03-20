@@ -1,0 +1,31 @@
+{
+  "name": "guinnesssc.com",
+  "version": "0.0.1",
+  "description": "Guinness S.C. website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint",
+    "dev": "nuxt"
+  },
+  "keywords": [
+    "swimming",
+    "openwater",
+    "swimireland",
+    "masters"
+  ],
+  "author": "Matteo Bandiera",
+  "license": "ISC",
+  "dependencies": {
+    "nuxt": "^2.4.5"
+  },
+  "devDependencies": {
+    "eslint": "^5.15.3",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-vue": "^5.2.2",
+    "prettier": "^1.16.4"
+  }
+}
